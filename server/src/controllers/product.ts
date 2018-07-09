@@ -15,7 +15,7 @@ export const getProduct = requestHandlerFactory(
         const product: any = await db.getProductByCode(code)
 
         if (!product) {
-            throw Error('Don\'t make up you\'re oun products! we don\'t have ' + code)
+            throw Error('Don\'t make up you\'re own products! we don\'t have ' + code)
         }
 
         return product
