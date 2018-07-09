@@ -7,8 +7,16 @@
     "@types/cors": "^2.8.4",
     "@types/express": "^4.16.0",
     "@types/mongoose": "^5.2.0",
+    "concurrently": "^3.6.0",
     "cors": "^2.8.4",
     "express": "^4.16.3",
-    "mongoose": "^5.2.2"
+    "mongoose": "^5.2.2",
+    "nodemon": "^1.17.5",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "tsc-w": "tsc -p \"tsconfig.json\" -w",
+    "start-server": "nodemon ./build/index.js",
+    "start": "concurrently \"npm run tsc-w\" \"npm run start-server\""
   }
 }
