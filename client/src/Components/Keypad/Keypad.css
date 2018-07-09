@@ -1,0 +1,28 @@
+.keypad {
+    border: 1px solid red;
+    flex: 1;
+    padding: 0.8em;
+}
+
+.keypad-display {
+    background-color: #CCC;
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30px;
+    padding: 0.3em;
+    color: black;
+}
+
+.keypad-buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 0.2em;
+    grid-row-gap: 0.3em;
+    padding: 0.8em;
+}
+
+.keypad-button {
+    cursor: pointer;
+}
+
