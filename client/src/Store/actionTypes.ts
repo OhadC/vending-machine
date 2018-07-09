@@ -1,0 +1,2 @@
+export const SET_INVENTORY = "SET_INVENTORY";
+export const BUY_PRODUCT = "BUY_PRODUCT";

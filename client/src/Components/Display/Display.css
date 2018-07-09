@@ -1,0 +1,11 @@
+.display {
+    flex: 3;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    padding: 0.8em;
+}
