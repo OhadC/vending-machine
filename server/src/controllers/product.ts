@@ -1,38 +1,33 @@
 import { Request, Response } from 'express'
-import { db } from '../models'
+import { db, jsonDb } from '../models'
 
 import { requestHandlerFactory } from "./utils"
 
 export const getAllProducts = requestHandlerFactory(
-    (req: Request) => {
-        return db.find('product')
+    async (req: Request) => {
+        return db.getAllProducts()
     }
 )
 
 export const getProduct = requestHandlerFactory(
-    (req: Request) => {
-        const _id = req.params.id
-        return db.findOne('product', { _id })
+    async (req: Request) => {
+        const code = req.params.code
+        return db.getProductByCode(code)
     }
 )
 
 export const buyProduct = requestHandlerFactory(
     async (req: Request) => {
-        const _id = req.body._id
+        const code = req.body.code
         const price = req.body.price
-        const [product, balance] = await Promise.all([
-            db.findOne('product', { _id }),
-            db.findOne('balance', { _id })
-        ])
 
-        if (balance.amount === 0) {
+        const product: any = await db.getProductByCode(code)
+
+        if (product.amount === 0) {
             throw Error('Out of stoke. come back on sunday.')
         } else if (product.price > price) {
             throw Error('You are broke man. you cannot afford this.')
         }
-
-        db.update('balance', { _id }, { amount: balance.amount - 1 })
-
-        return product
+        return db.decreaseAmount(code)
     }
 )

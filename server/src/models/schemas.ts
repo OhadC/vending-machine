@@ -1,11 +1,8 @@
 import { Schema } from 'mongoose'
 
 export const Product = new Schema({
+    code: String,
     price: Number,
-    name: String
-})
-
-export const Balance = new Schema({
-    itemId: Schema.Types.ObjectId,
+    name: String,
     amount: Number
 })
