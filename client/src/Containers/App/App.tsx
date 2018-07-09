@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './App.css';
 import {connect} from "react-redux";
+import * as actionTypes from '../../Store/actionTypes';
 import * as thunks from '../../Store/thunks';
 import Display from "../../Components/Display/Display";
 import Keypad from "../../Components/Keypad/Keypad";
@@ -17,7 +18,7 @@ class App extends React.Component<any, any> {
                             <Display inventory={this.props.inventory}/>
                         </div>
                         <div className="keypad-wrapper">
-                            <Keypad onBuy={this.props.onBuy}/>
+                            <Keypad onBuy={this.props.onBuy} budget={this.props.budget} setBudget={this.props.setBudget}/>
                         </div>
                     </div>
                 </div>
@@ -28,13 +29,15 @@ class App extends React.Component<any, any> {
 
 const mapStateToProps = (state: any) => {
     return {
-        inventory: state.inventory
+        inventory: state.inventory,
+        budget: state.budget
     }
 };
 
 const mapDispatchToProps = (dispatch: any) => {
     return {
-        onBuy: (code: String) => dispatch(thunks.buyProduct(code))
+        onBuy: (code: string) => dispatch(thunks.buyProduct(code)),
+        setBudget: (amount: number) => dispatch({type: actionTypes.SET_BUDGET, payload: {amount}})
     }
 };
 

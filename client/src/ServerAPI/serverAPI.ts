@@ -14,12 +14,18 @@ export async function init() {
     }
 }
 
-export async function buyProduct(productCode: String) {
+export async function buyProduct(code: string, budget: number) {
     try {
-        console.log(productCode);
-        const buyReq = await fetch(`${BASE_URL}/product/:${productCode}`);
+        const body = {code, budget};
+        const buyReq = await fetch(`${BASE_URL}/product`, {
+            method: 'POST',
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(body)
+        });
         const isBuy = await buyReq.json();
-        console.log(isBuy);
+        return isBuy;
     } catch (e) {
         console.log(e.message);
     }

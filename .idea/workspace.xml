@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a37cdf-ad9d-44d8-a15b-552a7fe33d17" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Containers/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/App/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Store/Store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Store/Store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Store/actionTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Store/actionTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Store/thunks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Store/thunks.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,8 +25,8 @@
       <file leaf-file-name="Store.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Store/Store.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="193">
+              <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
               <folding>
                 <element signature="e#0#93#0" expanded="true" />
               </folding>
@@ -32,8 +37,11 @@
       <file leaf-file-name="thunks.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Store/thunks.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="253">
+              <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <element signature="e#0#52#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -41,8 +49,8 @@
       <file leaf-file-name="serverAPI.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -53,8 +61,8 @@
       <file leaf-file-name="actionTypes.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Store/actionTypes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+            <state relative-caret-position="69">
+              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -62,8 +70,8 @@
       <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Containers/App/App.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+            <state relative-caret-position="277">
+              <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -75,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="237">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -86,8 +94,8 @@
       <file leaf-file-name="Keypad.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+            <state relative-caret-position="529">
+              <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -126,13 +134,13 @@
         <option value="$PROJECT_DIR$/server/mock-data/product.json" />
         <option value="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.css" />
         <option value="$PROJECT_DIR$/client/src/Containers/App/App.css" />
-        <option value="$PROJECT_DIR$/client/src/Store/actionTypes.ts" />
-        <option value="$PROJECT_DIR$/client/src/Store/Store.ts" />
-        <option value="$PROJECT_DIR$/client/src/Store/thunks.ts" />
-        <option value="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" />
-        <option value="$PROJECT_DIR$/client/src/Containers/App/App.tsx" />
-        <option value="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" />
         <option value="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" />
+        <option value="$PROJECT_DIR$/client/src/Store/actionTypes.ts" />
+        <option value="$PROJECT_DIR$/client/src/Containers/App/App.tsx" />
+        <option value="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" />
+        <option value="$PROJECT_DIR$/client/src/Store/thunks.ts" />
+        <option value="$PROJECT_DIR$/client/src/Store/Store.ts" />
+        <option value="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" />
       </list>
     </option>
   </component>
@@ -213,41 +221,34 @@
               <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
               <item name="client" type="cbb8eebc:String" user="client" />
               <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Containers" type="cbb8eebc:String" user="Containers" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Containers" type="cbb8eebc:String" user="Containers" />
+              <item name="App" type="cbb8eebc:String" user="App" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
               <item name="ServerAPI" type="cbb8eebc:String" user="ServerAPI" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
-              <item name="server" type="cbb8eebc:String" user="server" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Store" type="cbb8eebc:String" user="Store" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
               <item name="server" type="cbb8eebc:String" user="server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
-              <item name="server" type="cbb8eebc:String" user="server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="controllers" type="cbb8eebc:String" user="controllers" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
-              <item name="server" type="cbb8eebc:String" user="server" />
-              <item name="src" type="cbb8eebc:String" user="src" />
-              <item name="routes" type="cbb8eebc:String" user="routes" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="node_modules" type="cbb8eebc:String" user="node_modules" />
-              <item name="@types" type="cbb8eebc:String" user="@types" />
             </path>
           </expand>
           <select />
@@ -306,7 +307,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
-    <property name="ts.external.directory.path" value="C:\Web-Development\assignments\vending-machine\client\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Web-Development\assignments\vending-machine\server\node_modules\typescript\lib" />
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -337,12 +338,13 @@
       <option name="presentableId" value="Default" />
       <updated>1531117830589</updated>
       <workItem from="1531117839824" duration="2509000" />
-      <workItem from="1531120373649" duration="12890000" />
+      <workItem from="1531120373649" duration="13715000" />
+      <workItem from="1531137844874" duration="4851000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15399000" />
+    <option name="totallyTimeSpent" value="21075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -357,17 +359,17 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33333334" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.2015504" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -377,6 +379,73 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/client/src/Store/Store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Store/thunks.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="552">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Store/actionTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Containers/App/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="28" column="57" lean-forward="true" selection-start-line="28" selection-start-column="57" selection-end-line="28" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Containers/App/App.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="598">
@@ -525,40 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Store/Store.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#93#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Store/thunks.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Store/actionTypes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Containers/App/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="32" selection-start-line="19" selection-start-column="32" selection-end-line="19" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controllers/utils.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -583,12 +618,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Store/Store.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="37" column="37" selection-start-line="37" selection-start-column="37" selection-end-line="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#93#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Store/thunks.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="9" lean-forward="true" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        <state relative-caret-position="323">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Store/actionTypes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Containers/App/App.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="32" column="28" lean-forward="true" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -596,7 +668,7 @@
     <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -605,8 +677,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        <state relative-caret-position="529">
+          <caret line="53" column="21" lean-forward="true" selection-start-line="53" selection-start-column="21" selection-end-line="53" selection-end-column="21" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

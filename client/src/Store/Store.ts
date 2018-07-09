@@ -3,7 +3,8 @@ import * as actionTypes from './actionTypes';
 import * as thunk from 'redux-thunk';
 
 interface IState {
-    inventory: Array<IProduct>
+    inventory: Array<IProduct>;
+    budget: number;
 }
 
 export interface IProduct {
@@ -20,7 +21,8 @@ export interface IStore {
 }
 
 const initialState: IState =  {
-    inventory: []
+    inventory: [],
+    budget: 0
 };
 
 const reducer = (state: IState, action: AnyAction): IState => {
@@ -29,7 +31,17 @@ const reducer = (state: IState, action: AnyAction): IState => {
             return {
                 ...state,
                 inventory: [...action.payload.inventory]
-            }
+            };
+        case actionTypes.SET_BUDGET:
+            return {
+                ...state,
+              budget: state.budget + action.payload.amount
+            };
+        case actionTypes.DEC_BUDGET:
+            return {
+                ...state,
+                budget: state.budget - action.payload.amount
+        }
     }
     return state;
 };
