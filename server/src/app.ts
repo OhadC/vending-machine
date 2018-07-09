@@ -8,6 +8,5 @@ const app = express()
 app.use(middlewares)
 
 app.use('/product', routes.product)
-// app.use('/balance', routes.balance)
 
 export default app

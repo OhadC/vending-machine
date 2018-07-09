@@ -11,7 +11,7 @@ export const getAllProducts = requestHandlerFactory(
 
 export const getProduct = requestHandlerFactory(
     async (req: Request) => {
-        const { code } = req.params
+        const code = req.body.code
         const product: any = await db.getProductByCode(code)
 
         if (!product) {
@@ -24,7 +24,8 @@ export const getProduct = requestHandlerFactory(
 
 export const buyProduct = requestHandlerFactory(
     async (req: Request) => {
-        const { code, budget } = req.body
+        const code = req.body.code
+        const budget = +req.body.budget
 
         const product: any = await db.getProductByCode(code)
 
@@ -44,7 +45,8 @@ export const buyProduct = requestHandlerFactory(
 
 export const refillProduct = requestHandlerFactory(
     async (req: Request) => {
-        const { code, amount } = req.body
+        const code = req.body.code
+        const amount = +req.body.amount
 
         const product: any = await db.getProductByCode(code)
 

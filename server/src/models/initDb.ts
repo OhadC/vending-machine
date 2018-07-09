@@ -2,9 +2,8 @@ import * as mongoose from 'mongoose'
 
 import { models } from '.'
 
-
 (async () => {
-    mongoose.connect('mongodb://localhost:27017/vendingMachine');
+    mongoose.connect('mongodb://localhost:27017/vendingMachine')
 
     const products = [
         {
@@ -38,12 +37,10 @@ import { models } from '.'
         }
     ]
 
-    await Promise.all([
-        models.Product.deleteMany({})
-    ])
+    await models.Product.deleteMany({})
 
     await Promise.all(
-        products.map(async (product) => new models.Product({ ...product, amount: 5 }).save())
+        products.map((product) => new models.Product({ ...product, amount: 5 }).save())
     )
     await mongoose.disconnect()
     process.exit()
