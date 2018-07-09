@@ -45,5 +45,6 @@ import { models } from '.'
     await Promise.all(
         products.map(async (product) => new models.Product({ ...product, amount: 5 }).save())
     )
-    mongoose.disconnect()
+    await mongoose.disconnect()
+    process.exit()
 })()

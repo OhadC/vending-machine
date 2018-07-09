@@ -10,7 +10,8 @@ export const getAllProducts = () =>
 export const getProductByCode = (code: string) =>
     models.Product.findOne({ code }, { _id: 0, __v: 0 })
 
-export const decreaseAmount = (code: string) => {
-    console.log(code)
-    return models.Product.findOneAndUpdate({ code }, { $inc: { amount: -1 } })
-}
+export const increaseAmount = (code, amount) =>
+    models.Product.findOneAndUpdate({ code }, { $inc: { amount } })
+
+export const decreaseAmount = (code: string, amount: number) =>
+    models.Product.findOneAndUpdate({ code }, { $inc: { amount: -amount } })
