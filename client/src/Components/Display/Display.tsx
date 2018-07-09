@@ -5,7 +5,6 @@ import {IProduct} from "../../Store/Store";
 
 class Display extends React.Component<any, any> {
 
-
     buildProducts = () => {
         console.log(this.props.inventory);
         return this.props.inventory.map((product: IProduct) => (
