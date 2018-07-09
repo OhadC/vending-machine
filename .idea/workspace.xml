@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a7a37cdf-ad9d-44d8-a15b-552a7fe33d17" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Product/Product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Components/Product/Product.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Store/actionTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/Store/thunks.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Display/Display.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Display/Display.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Containers/App/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/App/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Containers/App/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Containers/App/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Store/Store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Store/Store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/client/yarn.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/mock-data/balance.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/mock-data/balance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/mock-data/product.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/mock-data/product.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -55,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="serverAPI.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="serverAPI.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="69">
-              <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state relative-caret-position="575">
+              <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -91,17 +74,20 @@
       <file leaf-file-name="Display.tsx" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+            <state relative-caret-position="237">
+              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Keypad.tsx" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Keypad.tsx" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
+            <state relative-caret-position="375">
+              <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -138,7 +124,6 @@
         <option value="$PROJECT_DIR$/client/src/Components/Product/Product.css" />
         <option value="$PROJECT_DIR$/client/src/Components/Product/Product.tsx" />
         <option value="$PROJECT_DIR$/server/mock-data/product.json" />
-        <option value="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" />
         <option value="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.css" />
         <option value="$PROJECT_DIR$/client/src/Containers/App/App.css" />
         <option value="$PROJECT_DIR$/client/src/Store/actionTypes.ts" />
@@ -147,6 +132,7 @@
         <option value="$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts" />
         <option value="$PROJECT_DIR$/client/src/Containers/App/App.tsx" />
         <option value="$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx" />
+        <option value="$PROJECT_DIR$/client/src/Components/Display/Display.tsx" />
       </list>
     </option>
   </component>
@@ -170,10 +156,10 @@
       <path value="$PROJECT_DIR$/server/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="618" />
     <option name="width" value="1302" />
-    <option name="height" value="1047" />
+    <option name="height" value="1028" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -198,6 +184,29 @@
               <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
               <item name="client" type="cbb8eebc:String" user="client" />
               <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Components" type="cbb8eebc:String" user="Components" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Components" type="cbb8eebc:String" user="Components" />
+              <item name="Display" type="cbb8eebc:String" user="Display" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="vending-machine" type="cbb8eebc:String" user="vending-machine" />
+              <item name="client" type="cbb8eebc:String" user="client" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="Components" type="cbb8eebc:String" user="Components" />
+              <item name="Keypad" type="cbb8eebc:String" user="Keypad" />
             </path>
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
@@ -328,19 +337,19 @@
       <option name="presentableId" value="Default" />
       <updated>1531117830589</updated>
       <workItem from="1531117839824" duration="2509000" />
-      <workItem from="1531120373649" duration="10773000" />
+      <workItem from="1531120373649" duration="12890000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13282000" />
+    <option name="totallyTimeSpent" value="15399000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="618" y="0" width="1302" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" weight="0.32890365" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24050634" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1601686" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -348,7 +357,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.14988814" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33333334" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -406,6 +415,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -513,13 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/Store/Store.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="539">
@@ -554,16 +559,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="46" column="83" selection-start-line="46" selection-start-column="83" selection-end-line="46" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/src/controllers/utils.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -590,10 +585,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/ServerAPI/serverAPI.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="41" lean-forward="true" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+        <state relative-caret-position="575">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Display/Display.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/Components/Keypad/Keypad.tsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="46" column="18" lean-forward="true" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>

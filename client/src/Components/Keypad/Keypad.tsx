@@ -9,7 +9,6 @@ class Keypad extends React.Component<any, any> {
         this.state = {
             screenContent: ""
         };
-
     }
 
     buildButtons = () => {
